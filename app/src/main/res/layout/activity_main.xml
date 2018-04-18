@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/pizza"
+        android:contentDescription="@string/content_description_pizza"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textAlignment="center"
+        android:text="@string/first_bullet"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textAlignment="center"
+        android:text="@string/second_bullet"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textAlignment="center"
+        android:text="@string/third_bullet"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/specials_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textAlignment="center"
+        android:text="@string/fourth_bullet"
+        android:textSize="@dimen/text_size"
+        android:textColorLink="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/address_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_footer"
+            android:layout_marginLeft="@dimen/margin_left_footer"
+            android:layout_marginBottom="@dimen/margin_bottom_footer"
+            android:text="@string/physical_address"
+            android:textSize="@dimen/text_size"
+            android:textColorLink="@color/footer"/>
+
+        <TextView
+            android:id="@+id/website_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_footer"
+            android:layout_marginLeft="@dimen/margin_left_footer"
+            android:layout_marginBottom="@dimen/margin_bottom_footer"
+            android:text="@string/website"
+            android:textSize="@dimen/text_size"
+            android:textColorLink="@color/footer"/>
+
+        <TextView
+            android:id="@+id/phone_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_footer"
+            android:layout_marginLeft="@dimen/margin_left_footer"
+            android:layout_marginBottom="@dimen/margin_bottom_footer"
+            android:text="@string/phone"
+            android:textSize="@dimen/text_size"
+            android:textColorLink="@color/footer"/>
+
+    </LinearLayout>
+
+</LinearLayout>

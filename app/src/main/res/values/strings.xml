@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PIZZA BY THE SLICE</string>
+
+    <string name="content_description_pizza">Pizza</string>
+
+    <string name="first_bullet">* New York Style Pizza</string>
+    <string name="second_bullet">* 100% All Natural Cheese</string>
+    <string name="third_bullet">* Add Your Favorite Toppings</string>
+    <string name="fourth_bullet"><a href="https://google.com">* Tap Here for Today\'s Special! *</a></string>
+
+    <string name="physical_address"><a href="https://google.com">4321 Pie Lane</a></string>
+    <string name="website"><a href="https://google.com">www.pizzaslice.com</a></string>
+    <string name="phone"><a href="https://google.com">555-1234</a></string>
+
+</resources>
